@@ -1,5 +1,6 @@
 /*
-Write a function called doubleValues which accepts an array and returns a new array with all the values in the array passed to the function doubled
+Write a function called doubleValues which accepts an array and 
+returns a new array with all the values in the array passed to the function doubled
 
 Examples:
     doubleValues([1,2,3]) // [2,4,6]
@@ -16,7 +17,8 @@ function doubleValues(arr){
 }
 
 /*
-Write a function called onlyEvenValues which accepts an array and returns a new array with only the even values in the array passed to the function
+Write a function called onlyEvenValues which accepts an array and 
+returns a new array with only the even values in the array passed to the function
 
 Examples:
     onlyEvenValues([1,2,3]) // [2]
@@ -35,7 +37,8 @@ function onlyEvenValues(arr){
 }
 
 /*
-Write a function called showFirstAndLast which accepts an array of strings and returns a new array with only the first and last character of each string.
+Write a function called showFirstAndLast which accepts an array of strings and 
+returns a new array with only the first and last character of each string.
 
 Examples:
     showFirstAndLast(['colt','matt', 'tim', 'test']) // ["ct", "mt", "tm", "tt"]
@@ -51,7 +54,9 @@ function showFirstAndLast(arr){
 }
 
 /*
-Write a function called addKeyAndValue which accepts an array of objects, a key, and a value and returns the array passed to the function with the new key and value added for each object 
+Write a function called addKeyAndValue which accepts 
+an array of objects, a key, and a value and returns 
+the array passed to the function with the new key and value added for each object 
 
 Examples:
     addKeyAndValue([{name: 'Elie'}, {name: 'Tim'}, {name: 'Matt'}, {name: 'Colt'}], 'title', 'instructor') 
@@ -67,7 +72,10 @@ function addKeyAndValue(arr,key,value){
 }
 
 /*
-Write a function called vowelCount which accepts a string and returns an object with the keys as the vowel and the values as the number of times the vowel appears in the string. This function should be case insensitive so a lowercase letter and uppercase letter should count
+Write a function called vowelCount which accepts a string 
+and returns an object with the keys as the vowel and the 
+values as the number of times the vowel appears in the string. 
+This function should be case insensitive so a lowercase letter and uppercase letter should count
 
 Examples:
     vowelCount('Elie') // {e:2,i:1};
